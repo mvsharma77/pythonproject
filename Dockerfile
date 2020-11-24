@@ -3,8 +3,8 @@ FROM python:3
 
 WORKDIR /classification
 
-COPY /pythonproject/Multiclass_model-master/src/classification/install_module.py .
-COPY /pythonproject/Multiclass_model-master/src/classification/run_pipeline.py .
+COPY /Multiclass_model-master/src/classification/install_module.py .
+COPY /Multiclass_model-master/src/classification/run_pipeline.py .
 
 # RUN pip install -r requirements.txt
 

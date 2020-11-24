@@ -7,5 +7,5 @@ WORKDIR /Mulyiclass_model/src/classification
 
 # RUN pip install -r requirements.txt
 
-CMD ["python", ".install_module.py"]
-CMD ["python", ".run_pipeline.py"]
+CMD ["python", "install_module.py"]
+CMD ["python", "run_pipeline.py"]

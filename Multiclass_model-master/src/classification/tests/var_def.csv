@@ -1,0 +1,264 @@
+RAW_VAR,VAR_DEF_EN,VAR_DEF_DE
+CON_BON_TOTAL_REL_PRDPRICE_MOVEIN,RELATIVE SIGNUP BONUS,Vertragsabschlussbonus in % des Jahrespreises (Vertragszugang)
+CON_BPM_MOVEIN_CONSOL_ORDER_LST_DIFFDAY_CNT,DAYS SINCE LAST CONTRACT ORDER,Anzahl Tage seit dem letzten Abschluss eines Vertragszugangs
+CON_MOVEIN_CLEANED_DT,MOVE IN DATE,Belieferungsbeginn Datum (migrationsbereinigt)
+CON_MOVEIN_CLEANED_MON,MOVE IN MONTH,"Monat, in dem der Vertrag in Belieferung gegangen ist"
+CON_MOVEIN_CONSOL_CREATE_DT,CONTRACT ENTRY DATE,Eingangsdatum Vertragszugang bei E.ON (konsolidiert)
+CON_MOVEIN_CONSOL_ORDER_DT,CONTRACT ORDER DATE,Auftragsdatum Vertragszugang (konsolidiert)
+CON_MOVEIN_CONSOL_ORDER_MON,CONTRACT ORDER MONTH,"Monat, in dem der Vertragzugang vom Kunden beauftragt wurde"
+CON_MOVEIN_ORDER_DIFFDAY_CNT,DAYS BETWEEN ORDER AND MOVE IN,Anzahl Tage zwischen Vertragsabschluss und Belieferungsbeginn
+MAC_CON_START_CREATE_DT,CONTRACT START COMMS,Anlagedatum der zum Belieferungsbeginn führenden Marktkommunikation
+MAC_CON_START_PASSIV_CAT,CONTRACT START COMMS REASON,Kategorie Vertragszugang nicht vom Kunden mitgeteilt
+MAC_CON_START_PASSIV_FLG,IS COMMS MOVE IN,Vertragszugang nicht vom Kunden mitgeteilt 
+MAC_CON_START_REASON,CONTRACT START REASON,Transaktionsgrund (Vertragszugang)
+MAC_SERVICEPROVIDER_OLD,PREVIOUS SUPPLIER,Alter Energieversorger
+MAC_SERVICEPROV_OLD_CLUSTER,PREVIOUS SUPPLIER CLUSTER,Cluster Energieversorger Vorversorger
+MAC_START_REASON_CD,CONTRACT START REASON CODE,Transaktionsgrund Code (Vertragszugang)
+MOV_MOVEIN_CAT,MOVE IN CATEGORY,Kategorie Vertragszugang 
+OVA_BON_DRCT_MOVEIN,DIRECT SIGNUP BONUS,Sofortbonus (Vertragszugang) in Euro
+OVA_BON_MOVEIN,YAERLY SIGNUP BONUS,Bonus (Vertragszugang) in Euro
+OVA_BON_TOTAL_MOVEIN_SUM,TOTAL SIGNUP BONUS,Summe aller bei Vertragszugang gewährten Boni in Euro
+OVA_DATAORIGIN_MOVEIN,SALES CHANNEL,Akquise-Kanal (Vertragszugang)
+OVA_PROVIDER_MOVEIN,SALES PROVIDER,Dienstleister (Vertragszugang)
+OVA_TBO_CLUSTER_MOVEIN,NON-MONETARY BONUS CLUSTER,Cluster der Sachprämie (Vertragszugang)
+OVA_TBO_CUSTOMER_BENEFIT_MOVEIN,NON-MONETARY BONUS VALUE,Gegenwert der Prämie für den Kunden (UVP) (Vertragszugang)
+OVA_TBO_PURCHASING_COSTS_MOVEIN,NON-MONETARY BONUS PURCHASE PRICE,Einkaufskosten der Prämie inkl. Versandkosten (Vertragszugang)
+BIC_BILLING_DAYS,BILLING DAYS,Anzahl Abrechnungstage der letzten Rechnung
+BIL_AMOUNT,TOTAL YEAR END PAYMENT ,Rechnungsbetrag inkl. ersten Abschlag und sonstigen Forderungen
+BIL_PRINT_MON,BILLING MONTH,Monat der letzten Abrechnung
+BIL_REMAINING_AMOUNT,YEAR END PAYMENT,Rechnungsbetrag ohne ersten Abschlag und sonstigen Forderungen
+BIL_REMAINING_AMOUNT_REL_PRICE_PERYEAR,RELATIVE YEAR END PAYMENT,Rechnungsbetrag ohne ersten Abschlag im Verhältnis zu den aktuellen Jahreskosten
+BIL_TYPE,BILL TYPE,Art der letzten Rechnung
+BPP_CON_BON_LOYALTY_TOTAL_SUM,LOYALITY BONUS,Treuebonus(summiert)
+BPP_CON_BON_NEWPRD_TOTAL_SUM,PRODUCT SIGNUP BONUS,Produktabschlussbonus (summiert)
+BPP_CON_PARTPAY_LST,MONTHLY PAYMENT,Abschlagshöhe (Vertrag)
+CAC_PAYMENTMODE_INBOUND,PAYMENT METHOD INBOUND,Eingangszahlweise (Vertragskonto)
+CAC_PAYMENTMODE_OUTBOUND,PAYMENT METHOD OIUTBOUND,Ausgangszahlweise (Vertragskonto)
+CON_BIL_BPM_LST_DIFFDAY_CNT,DAYS SINCE LAST BILL (CUSTOMER),Anzahl Tage seit der letzten Rechnung des Kunden
+CON_BIL_LST_DIFFDAY_CNT,DAYS SINCE LAST BILL (CONTRACT),Anzahl Tage seit der letzten Rechnung des Vertrags
+CON_BIL_PARTPAY_CHG_PERC_LST,CHANGE IN MONTHLY PAYMENT,Prozentuale Abschlagsänderung  mit der Rechnung
+CON_DUN_BPM_PRINT_LST_DIFFDAY_CNT,DAYS SINCE LAST PAYMENT NOTICE (CUSTOMER),Anzahl Tage seit der letzten Mahnung des Kunden
+CON_DUN_PRINT_LST_DIFFDAY_CNT,DAYS SINCE LAST PAYMENT NOTICE (CONTRACT),Anzahl Tage seit der letzten Mahnung dieses Vertrags
+CRR_CREDITRATING_POINTS,INTERNAL CREDIT RATING,Internes Zahlungsverhalten
+DUN_CAC_PARAGRAPH315_FLG,PRICE OBJECTION 315,Preiswiderspruch gem. §315 BGB
+DUN_LEVEL_LST,LAST PAYMENT NOTICE LEVEL (CUSTOMER),Letzte Mahnstufe
+ACX_BPA_BUSINESS_CNT,NUMBER OF BUSINESS IN HOUSE (CUSTOMER),Anzahl Gewerbe im Haus (Geschäftspartner)
+ACX_BPA_FACILITY_AGE,FACILITY AGE (CUSTOMER),Gebäudealter - Gruppenwert (Geschäftspartner)
+ACX_BPA_FACILITY_TYP_PURCH_SCR,FACILITY TYPE PURCHASE (CUSTOMER),Immobilientyp: Kauf (Geschäftspartner)
+ACX_BPA_FACILITY_TYP_RENT_SCR,FACILITY TYPE RENTAL (CUSTOMER),Immobilientyp: Miete (Geschäftspartner)
+ACX_BPA_FAMILY_STRUCTURE_SCR,FAMILY STRUCTURE (CUSTOMER),Familienstruktur - Gruppenwert (Geschäftspartner)
+ACX_BPA_HEATING_TYP,HEATING TYPE (CUSTOMER),Befeuerungsart (Geschäftspartner)
+ACX_BPA_HOUSE_TYP,HOUSE TYPE (CUSTOMER),Bebauungstyp (Geschäftspartner)
+ACX_BPA_LIVINGSPACE_AREA,SPACE OF HOUSE OR FLAT (CUSTOMER),Wohnfläche in qm (Geschäftspartner)
+ACX_BPA_MOBILITY_SCR,MOBILITY (CUSTOMER),Mobilität Gruppenwert (Geschäftspartner)
+ACX_BPA_POTENTIAL_GAS,GAS POTENTIAL (CUSTOMER),Potenzielle Gasverfügbarkeit (Acxiom Daten)(Geschäftspartner)
+ACX_BPA_POTENTIAL_GAS_ENHANCED,GAS POTENTIAL ENHANCED (CUSTOMER),Potenzielle Gasverfügbarkeit (E.ON + Acxiom Daten) (Geschäftspartner)
+ACX_BPA_POTENTIAL_PV,PV SCORE (CUSTOMER),Marketscore Photovoltaikanlage (Geschäftspartner)
+ACX_BPA_PRIVATHOUSEHOLD_CNT,NUMBER OF PRIVATE HOUSEHOLDS IN HOUSE (CUSTOMER),Anzahl Privathaushalte im Haus (Geschäftspartner)
+ACX_BPA_PURCHASING_POWER_SCR,PURCHASING POWER (CUSTOMER),Kaufkraft - Gruppenwert (Geschäftspartner)
+ACX_COB_BUSINESS_CNT,NUMBER OF BUSINESSES IN HOUSE (CONNECTION),Anzahl Gewerbe im Haus (Verbrauchsstelle)
+ACX_COB_FACILITY_AGE,FACILITY AGE (CONNECTION),Gebäudealter - Gruppenwert (Verbrauchsstelle)
+ACX_COB_FACILITY_TYP_PURCH_SCR,FACILITY TYPE PURCHASE (CONNECTION),Immobilientyp: Kauf (Verbrauchsstelle)
+ACX_COB_FACILITY_TYP_RENT_SCR,FACILITY TYPE RENTAL (CONNECTION),Immobilientyp: Miete (Verbrauchsstelle)
+ACX_COB_FAMILY_STRUCTURE_SCR,FAMILY STRUCTURE (CONNECTION),Familienstruktur - Gruppenwert (Verbrauchsstelle)
+ACX_COB_HEATING_TYP,HEATING TYPE (CONNECTION),Befeuerungsart (Verbrauchsstelle)
+ACX_COB_HOUSE_TYP,HOUSE TYPE (CONNECTION),Bebauungstyp (Verbrauchsstelle)
+ACX_COB_LIVINGSPACE_AREA,SPACE OF HOUSE OR FLAT (CONNECTION),Wohnfläche in qm (Verbrauchsstelle)
+ACX_COB_MOBILITY_SCR,MOBILITY (CONNECTION),Mobilität Gruppenwert (Verbrauchsstelle)
+ACX_COB_POTENTIAL_GAS,GAS POTENTIAL (CONNECTION),Potenzielle Gasverfügbarkeit (Acxiom Daten)(Verbrauchsstelle)
+ACX_COB_POTENTIAL_GAS_ENHANCED,GAS POTENTIAL ENHANCED (CONNECTION),Potenzielle Gasverfügbarkeit (E.ON + Acxiom Daten) (Verbrauchsstelle)
+ACX_COB_POTENTIAL_PV,PV SCORE (CONNECTION),Marketscore Photovoltaikanlage (Verbrauchsstelle)
+ACX_COB_PRIVATHOUSEHOLD_CNT,NUMBER OF PRIVATE HOUSEHOLDS IN HOUSE (CONNECTION),Anzahl Privathaushalte im Haus (Verbrauchsstelle)
+ACX_COB_PURCHASING_POWER_SCR,PURCHASING POWER (CONNECTION),Kaufkraft - Gruppenwert (Verbrauchsstelle)
+BPARTNER_ID,BUSINESS PARTNER,Geschäftspartnernummer
+BPARTNER_MASTER_ID,BUSINESS PARTNER MASTER,Master Geschäftspartnernummer
+CONTRACT_ACCOUNT_ID,CONTRACT ACCOUNT ID,Vertragskontonummer
+CONTRACT_ID,CONTRACT ID,Vertragsnummer
+FULL_DT,FULL DATE,Datenstand
+MARKET_LOCATION_ID,MARKET LOCATION ID,Marktlokations-Identifikationsnummer
+OVA_RECORD_MOVEIN_CD,MOVE IN SOURCE IDENTIFIER,OVA Datensatz-ID Vertragszugang
+OVA_RECORD_PRODCHANGE_CD,PRODUCT CHANGE SOURCE IDENTIFIER,OVA Datensatz-ID Produktwechsel
+PRODUCT_CD,PRODUCT ID,Produkt-ID
+CAM_BPM_PRC_INC_LST_DIFFDAY_CNT,DAYS SINCE LAST PRICE INCREASE (CUSTOMER),Anzahl Tage seit der letzten Preiserhöhung des Kunden
+CAM_CON_PRC_INC_LST_DIFFDAY_CNT,DAYS SINCE LAST PRICE INCREASE (CONTRCAT),Anzahl Tage seit der letzten Preiserhöhung des Vertrags
+BPA_CSC_REGISTRATION_FLG,IS CUSTOMER SELF CARE REGISTERED,CSC registriert
+BPA_EMAIL_FLG,HAS EMAIL ADRESS,E-Mail Adresse vorhanden
+BPA_OPTIN_EMAIL,HAS OPT IN EMAIL,Opt-in E-Mail 
+BPA_OPTIN_EMAIL_VALIDFROM_DT,OPT IN EMAIL VALID FROM DATE,Opt-in E-Mail gültig ab
+BPA_OPTIN_EMAIL_VALIDTO_DT,OPT IN EMAIL VALID TO DATE,Opt-in E-Mail gültig bis
+BPA_OPTIN_PHONE,HAS OPT IN PHONE,Opt-in Telefon
+BPA_OPTIN_PHONE_VALIDFROM_DT,OPT IN PHONE VALID FROM DATE,Opt-in Telefon gültig ab
+BPA_OPTIN_PHONE_VALIDTO_DT,OPT IN PHONE VALID TO DATE,Opt-in Telefon gültig bis
+BPA_TELEPHONE_FLG ,HAS PHONE NUMBER,Telefonnummer vorhanden
+CAC_ONLINECOMMUNICATION_FLG,HAS ONLINE COMMUNICATION,Vertragskonto auf Online Kommunikation umgestellt 
+CRM_BPA_COMPLAINT_LST_DIFFDAY_CNT,DAYS SINCE LAST COMPLAIN,Anzahl Tage seit Einreichen der letzten Beschwerde
+CRM_BPA_COMPLAINT_LST12M_CNT,NUMBER OF COMPLAINTS 12M,Anzahl Beschwerden in den letzten 12 Monaten
+CRM_BPA_COMPLAINT_OPEN_CNT,NUMBER OF OPEN COMPLAINTS,Anzahl offene Beschwerden
+CRS_BPM_CONTACT_LST30D_CNT,NUMBER OF CONTACTS 30D,Anzahl eingehende Kundenkontakte in den letzten 30 Tagen
+CRS_BPM_CONTACT_LST365D_CNT,NUMBER OF CONTACTS 365D,Anzahl eingehende Kundenkontakte in den letzten 365 Tagen
+CRS_BPM_CONTACT_LST60D_CNT,NUMBER OF CONTACTS 60D,Anzahl eingehende Kundenkontakte in den letzten 60 Tagen
+CRS_BPM_CONTACT_LST90D_CNT,NUMBER OF CONTACTS 90D,Anzahl eingehende Kundenkontakte in den letzten 90 Tagen
+CRS_BPM_CONTACT_WAIT_EMAIL_AVG_LST90D,MAIL WAIT TIME AVG 90D,Durchschnittliche Wartezeit bei Mails in den letzten 90 Tagen
+CRS_BPM_CONTACT_WAIT_PHONE_AVG_LST90D,CALL WAIT TIME AVG 90D,Durchschnittliche Wartezeit bei eingehenden Anrufen in den letzten 90 Tagen
+CRS_BPM_CONTACT_WAIT_WRITTEN_AVG_LST90D,LETTER WAIT TIME 90D,Durchschnittliche Wartezeit bei Schrift in den letzten 90 Tagen
+BPA_AGE_YEARS,CUSTOMER AGE,Alter des Geschäftspartners in Jahren
+BPA_DIFF_BPARTNER_FLG,IS DIFFERENT BILLING ADDRESS,Abweichender Rechnungsempfänger
+BPA_GENDER,GENDER,Geschlecht
+BPA_TITLE_ACADEMIC_FLG,ACADEMIC TITLE,Akademischer Titel
+CON_BPA_HEATING_DECIDER_FLG,CUSTOMER IS HEATING DECIDER,Kunde ist Entscheider für Heizungsanschluss
+PRD_BPM_TYPE_EMPLOYEE_EVER_FLG,IS EMPLOYEE EVER,Kunde hatte jemals ein Mitarbeiterprodukt (ist Mitarbeiter)
+BPA_CON_ACTIVE_CNT,NUMBER OF CONCURRENT CONTRACTS,Anzahl Verträge in Belieferung
+BPA_CON_ACTIVE_CONVERGENCE,TYPE OF CUSTOMER CONVERGENCE,Art Konvergenzkunde
+BPA_CON_ACTIVE_CONVERGENCE_FLG,IS CONVERGENT CUSTOMER,Konvergenzkunde
+BPA_CON_ACTIVE_GAS_CNT,NUMBER OF CONCURRENT GAS CONTRACTS,Anzahl Erdgasverträge in Belieferung (Geschäftspartner)
+BPA_CON_ACTIVE_POWER_CNT,NUMBER OF CONCURRENT POWER CONTRACTS,Anzahl Stromverträge in Belieferung (Geschäftspartner)
+BPA_CON_CUSTOMER_UNTIL_DT,CUSTOMER UNTIL DATE,Enddatum der Kundenbeziehung mit E.ON
+BPM_CON_CUSTOMER_SINCE_DT,CUSTOMER SINCE DATE,Beginndatum der Kundenbeziehung mit E.ON
+BPM_CON_CUSTOMER_SINCE_MON,MONTHS SINCE CUSTOMER,Kundenlebensdauer in Monaten
+CON_BUNDLE_FLG,IS ENERGY PLUS BUNDLE,Vertrag in einem Energie Plus Bundle 
+BPA_SERVICESEGMENT_ID,CUSTOMER SEGMENT,Segmentbezeichnung
+BPA_SME_FLG,IS SME CUSTOMER,SME Kunde
+CON_P_CUSTOMER_FLG,PRIVATE CUSTOMER SEGMENT,Privatkundensegment Flag
+COD_EBO_ACT_PRICEDIFF_RANK1,COD_EBO_ACT_PRICEDIFF_RANK1,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum aktuellen Datum zu Platz 1 in Euro
+COD_EBO_ACT_PRICEDIFF_RANK1_REL,COD_EBO_ACT_PRICEDIFF_RANK1_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum aktuellen Datum zu Platz 1 in Euro relativ zu den Jahreskosten
+COD_EBO_ACT_PRICEDIFF_RANK10,COD_EBO_ACT_PRICEDIFF_RANK10,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum aktuellen Datum zu Platz 10 in Euro
+COD_EBO_ACT_PRICEDIFF_RANK10_REL,COD_EBO_ACT_PRICEDIFF_RANK10_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum aktuellen Datum zu Platz 10 in Euro relativ zu den Jahreskosten
+COD_EBO_ACT_PRICEDIFF_RANK20,COD_EBO_ACT_PRICEDIFF_RANK20,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum aktuellen Datum zu Platz 20 in Euro
+COD_EBO_ACT_PRICEDIFF_RANK20_REL,COD_EBO_ACT_PRICEDIFF_RANK20_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum aktuellen Datum zu Platz 20 in Euro relativ zu den Jahreskosten
+COD_EBO_ACT_PRICEDIFF_RANK5,COD_EBO_ACT_PRICEDIFF_RANK5,Preisdifferenz des günstigsten E.ON Produktes auf Verivox  exkl. Bonus zum aktuellen Datum zu Platz 5 in Euro
+COD_EBO_ACT_PRICEDIFF_RANK5_REL,COD_EBO_ACT_PRICEDIFF_RANK5_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox  exkl. Bonus zum aktuellen Datum zu Platz 5 in Euro relativ zu den Jahreskosten
+COD_EBO_ACT_RANK,COD_EBO_ACT_RANK,Platzierung des günstigsten E.ON Produktes bei Verivox exkl. Bonus  aktuell
+COD_EBO_ORDER_PRICEDIFF_RANK1,COD_EBO_ORDER_PRICEDIFF_RANK1,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum Vertragsabschluss zu Platz 1 in Euro
+COD_EBO_ORDER_PRICEDIFF_RANK1_REL,COD_EBO_ORDER_PRICEDIFF_RANK1_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum Vertragsabschluss zu Platz 1 in Euro relativ zu den Jahreskosten
+COD_EBO_ORDER_PRICEDIFF_RANK10,COD_EBO_ORDER_PRICEDIFF_RANK10,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum Vertragsabschluss zu Platz 10 in Euro
+COD_EBO_ORDER_PRICEDIFF_RANK10_REL,COD_EBO_ORDER_PRICEDIFF_RANK10_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum Vertragsabschluss zu Platz 10 in Euro relativ zu den Jahreskosten
+COD_EBO_ORDER_PRICEDIFF_RANK20,COD_EBO_ORDER_PRICEDIFF_RANK20,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum Vertragsabschluss zu Platz 20 in Euro
+COD_EBO_ORDER_PRICEDIFF_RANK20_REL,COD_EBO_ORDER_PRICEDIFF_RANK20_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox exkl. Bonus zum Vertragsabschluss zu Platz 20 in Euro relativ zu den Jahreskosten
+COD_EBO_ORDER_PRICEDIFF_RANK5,COD_EBO_ORDER_PRICEDIFF_RANK5,Preisdifferenz des günstigsten E.ON Produktes auf Verivox  exkl. Bonus zum Vertragsabschluss zu Platz 5 in Euro
+COD_EBO_ORDER_PRICEDIFF_RANK5_REL,COD_EBO_ORDER_PRICEDIFF_RANK5_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox  exkl. Bonus zum Vertragsabschluss zu Platz 5 in Euro relativ zu den Jahreskosten
+COD_EBO_ORDER_RANK,COD_EBO_ORDER_RANK,Platzierung des günstigsten E.ON Produktes bei Verivox exkl. Bonus  bei Vertragsabschluss
+COD_IBO_ACT_PRICEDIFF_RANK1,COD_IBO_ACT_PRICEDIFF_RANK1,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum  aktuellen Datum zu Platz 1 in Euro
+COD_IBO_ACT_PRICEDIFF_RANK1_REL,COD_IBO_ACT_PRICEDIFF_RANK1_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum  aktuellen Datum zu Platz 1 in Euro relativ zu den Jahreskosten
+COD_IBO_ACT_PRICEDIFF_RANK10,COD_IBO_ACT_PRICEDIFF_RANK10,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum  aktuellen Datum zu Platz 10 in Euro
+COD_IBO_ACT_PRICEDIFF_RANK10_REL,COD_IBO_ACT_PRICEDIFF_RANK10_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum  aktuellen Datum zu Platz 10 in Euro relativ zu den Jahreskosten
+COD_IBO_ACT_PRICEDIFF_RANK20,COD_IBO_ACT_PRICEDIFF_RANK20,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum aktuellen Datum zu Platz 20 in Euro
+COD_IBO_ACT_PRICEDIFF_RANK20_REL,COD_IBO_ACT_PRICEDIFF_RANK20_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum aktuellen Datum zu Platz 20 in Euro relativ zu den Jahreskosten
+COD_IBO_ACT_PRICEDIFF_RANK5,COD_IBO_ACT_PRICEDIFF_RANK5,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum aktuellen Datum zu Platz 5 in Euro
+COD_IBO_ACT_PRICEDIFF_RANK5_REL,COD_IBO_ACT_PRICEDIFF_RANK5_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum aktuellen Datum zu Platz 5 in Euro relativ zu den Jahreskosten
+COD_IBO_ACT_RANK,COD_IBO_ACT_RANK,Platzierung des günstigsten E.ON Produktes auf Verivox inkl. Bonus  aktuell
+COD_IBO_ORDER_PRICEDIFF_RANK1,COD_IBO_ORDER_PRICEDIFF_RANK1,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum Vertragsabschluss zu Platz 1 in Euro
+COD_IBO_ORDER_PRICEDIFF_RANK1_REL,COD_IBO_ORDER_PRICEDIFF_RANK1_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum Vertragsabschluss zu Platz 1 in Euro relativ zu den Jahreskosten
+COD_IBO_ORDER_PRICEDIFF_RANK10,COD_IBO_ORDER_PRICEDIFF_RANK10,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum Vertragsabschluss zu Platz 10 in Euro
+COD_IBO_ORDER_PRICEDIFF_RANK10_REL,COD_IBO_ORDER_PRICEDIFF_RANK10_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum Vertragsabschluss zu Platz 10 in Euro relativ zu den Jahreskosten
+COD_IBO_ORDER_PRICEDIFF_RANK20,COD_IBO_ORDER_PRICEDIFF_RANK20,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum Vertragsabschluss zu Platz 20 in Euro
+COD_IBO_ORDER_PRICEDIFF_RANK20_REL,COD_IBO_ORDER_PRICEDIFF_RANK20_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox inkl. Bonus zum Vertragsabschluss zu Platz 20 in Euro relativ zu den Jahreskosten
+COD_IBO_ORDER_PRICEDIFF_RANK5,COD_IBO_ORDER_PRICEDIFF_RANK5,Preisdifferenz des günstigsten E.ON Produktes auf Verivox  inkl. Bonus zum Vertragsabschluss zu Platz 5 in Euro
+COD_IBO_ORDER_PRICEDIFF_RANK5_REL,COD_IBO_ORDER_PRICEDIFF_RANK5_REL,Preisdifferenz des günstigsten E.ON Produktes auf Verivox  inkl. Bonus zum Vertragsabschluss zu Platz 5 in Euro relativ zu den Jahreskosten
+COD_IBO_ORDER_RANK,COD_IBO_ORDER_RANK,Platzierung des günstigsten E.ON Produktes bei Verivox inkl. Bonus  bei Vertragsabschluss
+PRP_CON_EBO_ACT_PRCDIF_EON,PRP_CON_EBO_ACT_PRCDIF_EON,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox exkl. Bonus zum aktuellen Datum
+PRP_CON_EBO_ACT_PRCDIF_EON_REL,PRP_CON_EBO_ACT_PRCDIF_EON_REL,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox exkl. Bonus zum aktuellen Datum relativ zu den Jahreskosten
+PRP_CON_EBO_ACT_PRCDIF_R1,PRP_CON_EBO_ACT_PRCDIF_R1,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox exkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_EBO_ACT_PRCDIF_R1_REL,PRP_CON_EBO_ACT_PRCDIF_R1_REL,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox exkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ACT_PRCDIF_R10,PRP_CON_EBO_ACT_PRCDIF_R10,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox exkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_EBO_ACT_PRCDIF_R10_REL,PRP_CON_EBO_ACT_PRCDIF_R10_REL,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox exkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ACT_PRCDIF_R20,PRP_CON_EBO_ACT_PRCDIF_R20,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox exkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_EBO_ACT_PRCDIF_R20_REL,PRP_CON_EBO_ACT_PRCDIF_R20_REL,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox exkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ACT_PRCDIF_R5,PRP_CON_EBO_ACT_PRCDIF_R5,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox exkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_EBO_ACT_PRCDIF_R5_REL,PRP_CON_EBO_ACT_PRCDIF_R5_REL,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox exkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ORDER_PRCDIF_EON,PRP_CON_EBO_ORDER_PRCDIF_EON,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox exkl. Bonus zum Vertragsabschluss
+PRP_CON_EBO_ORDER_PRCDIF_EON_REL,PRP_CON_EBO_ORDER_PRCDIF_EON_REL,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox exkl. Bonus zum Vertragsabschluss relativ zu den Jahreskosten
+PRP_CON_EBO_ORDER_PRCDIF_R1,PRP_CON_EBO_ORDER_PRCDIF_R1,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_EBO_ORDER_PRCDIF_R1_REL,PRP_CON_EBO_ORDER_PRCDIF_R1_REL,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ORDER_PRCDIF_R10,PRP_CON_EBO_ORDER_PRCDIF_R10,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_EBO_ORDER_PRCDIF_R10_REL,PRP_CON_EBO_ORDER_PRCDIF_R10_REL,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ORDER_PRCDIF_R20,PRP_CON_EBO_ORDER_PRCDIF_R20,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_EBO_ORDER_PRCDIF_R20_REL,PRP_CON_EBO_ORDER_PRCDIF_R20_REL,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_EBO_ORDER_PRCDIF_R5,PRP_CON_EBO_ORDER_PRCDIF_R5,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_EBO_ORDER_PRCDIF_R5_REL,PRP_CON_EBO_ORDER_PRCDIF_R5_REL,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox exkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ACT_PRCDIF_EON,PRP_CON_IBO_ACT_PRCDIF_EON,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox inkl. Bonus zum aktuellen Datum
+PRP_CON_IBO_ACT_PRCDIF_EON_REL,PRP_CON_IBO_ACT_PRCDIF_EON_REL,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox inkl. Bonus zum aktuellen Datum relativ zu den Jahreskosten
+PRP_CON_IBO_ACT_PRCDIF_R1,PRP_CON_IBO_ACT_PRCDIF_R1,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox inkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_IBO_ACT_PRCDIF_R1_REL,PRP_CON_IBO_ACT_PRCDIF_R1_REL,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox inkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ACT_PRCDIF_R10,PRP_CON_IBO_ACT_PRCDIF_R10,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox inkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_IBO_ACT_PRCDIF_R10_REL,PRP_CON_IBO_ACT_PRCDIF_R10_REL,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox inkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ACT_PRCDIF_R20,PRP_CON_IBO_ACT_PRCDIF_R20,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox inkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_IBO_ACT_PRCDIF_R20_REL,PRP_CON_IBO_ACT_PRCDIF_R20_REL,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox inkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ACT_PRCDIF_R5,PRP_CON_IBO_ACT_PRCDIF_R5,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox inkl. Bonus zum aktuellen Datum in Euro
+PRP_CON_IBO_ACT_PRCDIF_R5_REL,PRP_CON_IBO_ACT_PRCDIF_R5_REL,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox inkl. Bonus zum aktuellen Datum in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ORDER_PRCDIF_EON,PRP_CON_IBO_ORDER_PRCDIF_EON,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox inkl. Bonus zum Vertragsabschluss
+PRP_CON_IBO_ORDER_PRCDIF_EON_REL,PRP_CON_IBO_ORDER_PRCDIF_EON_REL,Vertragsindividuelle Preisdifferenz zum günstigsten E.ON Produkt auf Verivox inkl. Bonus zum Vertragsabschluss relativ zu den Jahreskosten
+PRP_CON_IBO_ORDER_PRCDIF_R1,PRP_CON_IBO_ORDER_PRCDIF_R1,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_IBO_ORDER_PRCDIF_R1_REL,PRP_CON_IBO_ORDER_PRCDIF_R1_REL,Vertragsindividuelle Preisdifferenz zu Platz 1 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ORDER_PRCDIF_R10,PRP_CON_IBO_ORDER_PRCDIF_R10,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_IBO_ORDER_PRCDIF_R10_REL,PRP_CON_IBO_ORDER_PRCDIF_R10_REL,Vertragsindividuelle Preisdifferenz zu Platz 10 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ORDER_PRCDIF_R20,PRP_CON_IBO_ORDER_PRCDIF_R20,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_IBO_ORDER_PRCDIF_R20_REL,PRP_CON_IBO_ORDER_PRCDIF_R20_REL,Vertragsindividuelle Preisdifferenz zu Platz 20 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_IBO_ORDER_PRCDIF_R5,PRP_CON_IBO_ORDER_PRCDIF_R5,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro
+PRP_CON_IBO_ORDER_PRCDIF_R5_REL,PRP_CON_IBO_ORDER_PRCDIF_R5_REL,Vertragsindividuelle Preisdifferenz zu Platz 5 auf Verivox inkl. Bonus zum Vertragsabschluss in Euro relativ zu den Jahreskosten
+PRP_CON_PRICE_PERYEAR,YEARLY CONTRACT PRICE,Jahrespreis brutto des Vertrags
+PRP_CON_PRICE_PERYEAR_START,YEARLY CONTRACT PRICE SIGNUP,Jahrespreis brutto des Vertrags zum Auftragsdatum
+PRD_DIVISION_DETAIL,PRODUCT DIVISION,Sparte
+PRD_NAME,PRODUCT NAME INTERNAL,Interner Produktname
+PRD_NAME_BILLING,PRODUCT NAME EXTERNAL,Rechnungsbezeichnung
+PRD_SUPPLYSTATUS,PRODUCT SUPPLY STATUS,Versorgungsstatus (Vertrag)
+PRD_TYPE_ECO_FLG,IS ECO PRODUCT,Ökoprodukt (Vertrag)
+PRD_TYPE_EMPLOYEE_FLG,IS EMPLOYEE PRODUCT,Mitarbeiterprodukt (Vertrag)
+PRD_TYPE_KOMBI_FLG,IS KOMBI PRODUCT,Kombiprodukt 
+PRD_TYPE_PRICEGUARANTEE_FLG,IS PRICEGUARANTEE PRODUCT,Preisgarantieprodukt 
+OVA_BON_DRCT_PRODCHANGE,DIRECT PRODUCT CHANGE BONUS,Sofortbonus (letzter Produktwechsel) in Euro
+OVA_BON_PRODCHANGE,YEARLY PRODUCT CHANGE BOUNS,Bonus (letzter Produktwechsel) in Euro
+OVA_BON_TOTAL_PRODCHANGE_SUM,TOTAL PRODUCT CHANGE BONUS,Gesamtbonus (letzter Produktwechsel) in Euro
+OVA_DATAORIGIN_PRODCHANGE,SALES CHANNEL PRODUCT CHANGE,Kanal (letzter Produktwechsel)
+OVA_PROVIDER_PRODCHANGE,SALES PROVIDER PRODUCT CHANGE,Dienstleister ( letzter Produktwechsel)
+OVA_TBO_CLUSTER_PRODCHANGE,NON-MONETARY BONUS CLUSTER PRODUCT CHANGE,Cluster der Sachprämie (Produktwechsel)
+OVA_TBO_CUSTOMER_BENEFIT_PRODCHANGE,NON-MONETARY BONUS VALUE PRODUCT CHANGE,Gegenwert der Prämie für den Kunden (UVP) (Produktwechsel)
+OVA_TBO_PURCHASING_COSTS_PRODCHANGE,NON-MONETARY BONUS PURCHASE PRICE PRODUCT CHANGE,Einkaufskosten der Prämie inkl. Versandkosten (Produktwechsel)
+PDC_BPM_CONSOL_ORDER_LST_DIFFDAY_CNT,DAYS SINCE LAST PRODUCT CHANGE,"Anzahl Tage seit dem letzten Produktwechsel des Kunden, der durchgeführt wurde"
+PDC_CONSOL_ORDER_DIFFDAY_CNT,DAYS SINCE LAST PRODUCT CHANGE ORDER,"Anzahl Tage seit dem letzten Abschluss eines Produktwechsels, der durchgeführt wurde"
+PDC_CONSOL_ORDER_DT,PRODUCT CHANGE DATE,Konsolidiertes Auftragsdatum des Produktwechsels
+AEI_BASICSUPPLIER_FLG,IS BASIC SUPPLY AREA,Vertrag im E.ON Grundversorgungsgebiet
+BPA_CITY,CITY,Stadt des Geschäftspartners
+BPA_POSTCODE,POST CODE (CUSTOMER),5-stellige PLZ des Geschäftspartners
+BPA_POSTCODE_PRT ,TWO DIGIT POSTCODE (CUSTOMER),2-stellige PLZ des Geschäftspartners
+COB_BAS_STATUS_LOST_DIFFDAY_CNT,DAYS SINCE BASIC SUPPLY AREA LOSS,Anzahl Tage seit Verlust des E.ON Grundversorgungsstatus
+COB_POSTCODE,POST CODE (CONNECTION),5-stellige PLZ des Anschlussobjektes
+COB_POSTCODE_PRT,TWO DIGIT POST CODE (CONECTION),2-stellige PLZ des Anschlussobjektes
+COB_REGION,STATE (BUNDESLAND),Bundesland
+CON_GRID_OPERATOR,GRID OPERATOR,Netzbetreiber
+BPA_SCORE_FLG,IS SCORING ALLOWED,Geschäftspartner darf gescort werden
+COB_GAS_PROBABILITY_CD,GAS PROBABILITY (CONNECTION),Wahrscheinlichkeit für Gasanschluss an der Verbrauchsstelle
+BPA_MAC_CHURN_TURNED_CNT,NUMBER OF RETAINED CANCELLATIONS (CUSTOMER),Anzahl an erfolgreich gedrehten Kündigungen auf Geschäftspartner-Ebene
+CON_MOVEOUT_DT,MOVE OUT DATE,Belieferungsende Datum 
+MAC_BPM_CHURN_ARTICULATION_LST_DIFFDAY_CNT,DAYS SINCE LAST CANCELLATION AT EON,Anzahl Tage seit der letzten Kündigung eines E.ON Energievertrags
+MAC_CANCELLATIONBY,CANCELLATION BY,Initiator der Kündigung
+MAC_CHURN_APPROVAL_DT,CANCELLATION APPROVAL DATE,Erstmaliges Bestätigungsdatum zur Kündigung des Vertrags
+MAC_CHURN_ARTICULATION_LST_DIFFDAY_CNT,DAYS SINCE LAST CANCELLATION,Anzahl Tage seit der letzten eingegangenen Kündigung des Vertrags aufgrund Energieversorgerwechsel
+MAC_CHURN_ARTICULATION_LST_DT,LAST CANCELLATION DATE,Datum letztmalige Äußerung Kündigungswunsch des Vertrags
+MAC_CHURN_FLG,CHURN FLAG,Churn Flag
+MAC_CON_END_CREATE_DT,CONTRACT END COMMS,Anlagedatum der zum Belieferungsende führenden Marktkommunikation
+MAC_CON_END_REASON,CONTRACT END COMMS REASON,Transaktionsgrund  (Vertragsverlust)
+MAC_END_REASON_CD,CONTRACT END COMMS REASON CODE,Transaktionsgrund Code (Vertragsverlust)
+MAC_SERVICEPROV_NEW_CLUSTER,NEXT SUPPLIER CLUSTER,Wettbewerbscluster neuer Energieversorger
+MAC_SERVICEPROVIDER_NEW,NEXT SUPPLIER,Neuer Energieversorger
+BPA_COB_DIFF_POSTCODE_FLG,IS DIFFERENT CONNECTION ADDRESS,Abweichende Anschlussobjekt-Adresse
+CON_ACTIVE_FLG,IS ACTIVE CONTRACT,Vertrag in Belieferung
+CON_CANCEL_DT,LATEST CANCELLATION DATE,spätest mögliches Kündigungsdatum
+CON_CANCEL_NXT_DIFFDAY_CNT,DAYS UNTIL LATEST CANCELLATION DATE,Anzahl Tage bis zu dem der Vertrag zum nächsten Vertragsendedatum gekündigt werden kann
+CON_CHURNPERMALWAYS_FLG,IS WITHOUT MINIMUM CONTRACT DURATION,Kündigungsmöglichkeit mindestens monatlich
+CON_CONSOL_CONSUMPT_ESTPYR,YEARLY CONSUMPTION,Jahresverbrauch (konsolidiert)
+CON_SINCE_MON,CONTRACT DURATION,Vertragsdauer in Monaten
+CON_SLICE_FRST_FLG,IS FIRST CONTRACT SLICE,Erste Vertragszeitscheibe
+CON_SLICE_LST_FLG,IS LAST CONTRACT SLICE,Letzte Vertragszeitscheibe
+CON_VALIDFROM_DT,CONTRACT VALID FROM DATE,Vertragsdatensatz gültig ab
+CON_VALIDTO_DT,CONTRACT VALID TO DATE,Vertragsdatensatz gültig bis
+PRD_METERTYPE,METER TYPE,Messeinrichtung 
+VSG_BPA_CST_DB1_TO_DB2,COST DB1 To DB2 (CUSTOMER),Kundenspezifische Kosten von DB1 bis DB2
+VSG_BPA_DB1,DB1 (CUSTOMER),Deckungsbeitrag I auf Kundenebene in Euro
+VSG_BPA_DB2,DB2 (CUSTOMER),Deckungsbeitrag II auf Kundenebene in Euro
+VSG_BPA_DB2_GRP,DB2 CLUSTER (CUSTOMER),Deckungsbeitrag II auf Kundenebene gruppiert
+VSG_BPA_FLT,HAS CLTV (CUSTOMER),Kundenwert vorhanden
+VSG_CON_CST_DB1_TO_DB2,COST DB1 TO DB2 (CONTRACT),Vertragsspezifische Kosten von DB1 bis DB2
+VSG_CON_DB1,DB1 (CONTRACT),Deckungsbeitrag I auf Vertragsebene in Euro
+VSG_CON_DB2,DB2 (CONTRACT),Deckungsbeitrag II auf Vertragsebene in Euro
+VSG_CON_DB2_GRP,DB2 CLUSTER (CONTRACT),Deckungsbeitrag II auf Vertragsebene gruppiert
+VSG_CV_FLT,HAS CLTV (CONTRACT),Vertragswert vorhanden

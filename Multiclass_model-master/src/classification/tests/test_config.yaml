@@ -1,0 +1,194 @@
+user: ''                # KID
+sql_extract_train: False      # get train dataset from snowflake
+sql_extract_scoring: False    # get scoring dataset from snowflake
+train: True                  # apply the train
+scoring: True                 # apply scoring if the model have been already trained
+visual: True                  # apply visualization if the model have been trained
+exploration: True                     #apply exploratory data analysis on the data before model training
+score_name: 'General_Churn'   # string with model (ex. General_Churn, Price_increase)
+main_dir: '.'             # path to main dir to store input and output data
+abt_vars: 'test_abt_vars.txt'      # name of txt file containing the feature list
+target: 'Churn'   # target column
+force_proxy: True                # force proxy fro corporate network
+user_ini_path:                    # full path to user credential file for snowflake
+
+extraction:                                                   # snowflake extraction
+  sample: 300000                                              # number of records per class
+  analytics_base_table: 'AE_ANALYTICS_DM.ANALYTICS_DM_T_BASE' # base table
+  population_train:
+    name: "pop_training"
+    file: "Telco_Churn.csv"
+    join_type: 'left'
+    join_pop:
+        - - "CONTRACT_ID"
+          - "="
+          - "CONTRACT_ID"
+        - - "FULL_DT"
+          - "="
+          - 'FULL_DT'
+  population_score:
+    name: "pop_score"
+    file: "population_scoring.sql"
+    join_type: 'left'
+    join_pop:
+        - - "CONTRACT_ID"
+          - "="
+          - "CONTRACT_ID"
+        - - "FULL_DT"
+          - "="
+          - 'FULL_DT'
+
+eda:
+  classes: ['Yes','No'] #['Stay', 'G_Churn']
+
+  num:
+    flg: True
+    param:
+      percentage: 0.9
+      opacity: 0.5
+      colors: ['RED', 'YEL']
+      denisty: False
+      title: 'DE'
+      title_len: 60
+      x_label: 'DE'
+      y_label: 'Number of Contracts'
+      label_len: 35
+      add_stats: True
+      plot_format: '.pdf'
+
+  cat:
+    flg: True
+    param:
+      percentage: 0.01
+      plot_type: 'bar'
+      color: 'RED'
+      column: 'Yes'
+      balance: #0.04864
+      rot: 90
+      denisty: True
+      title: 'DE'
+      title_len: 60
+      x_label: 'DE'
+      y_label: 'Churn Rate'
+      label_len: 35
+      cat_len: 30
+      fig_size: 0
+      plot_format: '.pdf'
+
+prediction:
+  random_split: True                     # if True getting Random split of train 0.6 test 0.2 eval 0.2
+  k_folds: 5                              # specify number of folders that we want use for the k-fold cross validation
+  last_date_test: '2018-01-31'            # smaller 'full_dt' considered on test: test=( df['full_df']>=last_date_test )
+  ratio_weight: 0                         # weight to unbalance the train set
+  param:                                  # model parameters for cross validation
+        'objective': 'binary:logistic'
+        'verbosity': 1
+        'booster': ['gbtree', 'gblinear']
+        'n_jobs': 2
+        'max_depth': 2
+        'n_estimators': [60]
+        'learning_rate': [0.1]
+        'reg_lambda': 3
+        'subsample': 0.75
+        'random_state': 1337
+  num_imputer: -99999                                    # Value for imputation of numerical variables
+  features: []                                           # Possibility to list specific features during the training
+  feature_sel: True
+  corr_bound: 0.8
+
+vis:
+  auc:                                                              # Area Under the Curve
+    flg: True
+    param:
+      plot_size: 5
+      fname: 'AUC_ROC'
+      table: True
+      save_format: 'csv'
+      plot_format: '.svg'
+
+  imp:                                                             # feature importance
+    t_flg: True
+    t_param:
+      aggregated: True
+      save_format: 'csv'
+      fname : 'Feature_Importance'
+
+    p_flg: True
+    p_param:
+      aggregated: True
+      x: ['RAW_VAR', 'VAR_DEF_EN', 'VAR_DEF_DE']
+      y: 'VAR_IMP_REL'
+      x_label: 'Model Features'
+      y_label: 'Relative Importance'
+      fname: 'Feature_Importance_'
+      str_len: [25, 25, 35]
+      plot_format: '.svg'
+
+  em:                                                              # evaluation metric
+    flg: True
+    param:
+      plot_size: 8
+      fname: 'ACC_PRE_REC_F1'
+      table: True
+      save_format_table: 'csv'
+      metrics: ['ACC', 'PRE', 'REC', 'F1']
+      plot_format: '.svg'
+
+  cf_mat:                                                         # confusion metric
+    flg: True
+    param:
+      threshold: ['None', 'None', 'None', 'None']
+      plot_size: 10
+      classes: ['Stay', 'General_Churn']
+      normalize_axis: ['None', 'pred', 'all', 'true']
+      cmap: Reds
+      fname: 'Confusion_Matrix_'
+      plot_format: '.svg'
+
+  shap:                                                           # Shaply values
+    flg: False
+    param:
+      ratio: 0.05
+      cut_off: 0.01
+      mean_na: True
+      interaction: False
+      cmap: 'autumn'
+      opacity_num: 0.5
+      percent_num: 0.95
+      cat_line_len: 30
+      plot_type_cat: 'bar'
+      y_label_num: 'Effect on General Churn'
+      x_label_num: 'DE'
+      y_label_cat: 'DE'
+      x_label_cat: 'Effect on General Churn'
+      label_len: 30
+      dir_name: 'Shaply_Values'
+      title_map: 'DE'
+      title_len: 35
+      plot_format: '.svg'
+
+  decile:
+    flg: True
+    param:
+      bar: True
+      line: True
+      ylabel_bar: 'Probability'
+      xlabel_bar: 'Score Deciles'
+      xlabel_line: 'Predicted Probability'
+      ylabel_line: 'True Probability'
+      opacity: 0.8
+      title: 'Deciles'
+      plot_format: '.svg'
+
+  dist:
+    flg: True
+    param:
+      fname: 'Prediction_distribution'
+      classes: ["STAY", "CHURN"]
+      bins: 100
+      opacity: 0.8
+      denisty: True
+      title: 'Conditional Distribution Predictions'
+      ylabel: 'Frequency'
+      xlabel: 'Probability'
+      plot_format: '.svg'

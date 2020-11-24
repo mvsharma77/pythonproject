@@ -1,0 +1,9 @@
+results_tmp/
+results/
+build/
+data/General_Churn/
+.idea/*
+**pycache**
+classification.egg-info/
+src/classification/.idea/
+dist/classification-0.1-py3.7.egg

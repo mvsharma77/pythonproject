@@ -1,9 +1,10 @@
 # use a node base image
 FROM python:3
 
-WORKDIR /pythonproject/Multiclass_model-master/src/classification
+WORKDIR /classification
 
-# COPY Multiclass_model-master/requirements.txt .
+COPY /pythonproject/Multiclass_model-master/src/classification/install_module.py .
+COPY /pythonproject/Multiclass_model-master/src/classification/run_pipeline.py .
 
 # RUN pip install -r requirements.txt
 

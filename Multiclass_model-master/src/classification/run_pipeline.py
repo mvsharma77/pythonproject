@@ -1,12 +1,13 @@
 import logging
 import os
 import argparse
+#import install_module.py
 
-from .model import train, scoring_predict, utils
-from .visualization import main_viz
-from .exp_data_analysis import main_eda
-from .data_extraction import extract_data
-from .main_config import _Config
+from model import train, scoring_predict, utils
+from visualization import main_viz
+from exp_data_analysis import main_eda
+from data_extraction import extract_data
+from main_config import _Config
 
 log = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -63,6 +64,7 @@ def run_pipeline(cfg_path, data_path=None, model_path=None, user=None, train_flg
 
     utils.store_data(config)
 
+
 def main():
     """
     Main functions to run the classification pipeline. It receives three arguments:
@@ -99,18 +101,11 @@ def main():
     if cmd_line_arg.config_path:
         config_path = cmd_line_arg.config_path
     else:
-        config_path = os.path.join(path, 'classification', 'configs', 'config_file.yaml')
+        config_path = os.path.join(path, 'classification/config_examples/sample_config.yaml')
 
-    if cmd_line_arg.data_path:
-        config_data_path = cmd_line_arg.data_path
-    else:
-        config_data_path = path
-
-    run_pipeline(config_path, data_path=config_data_path, model_path=cmd_line_arg.model_path,
+    run_pipeline(config_path, data_path=cmd_line_arg.data_path, model_path=cmd_line_arg.model_path,
                  user=cmd_line_arg.user, train_flg=cmd_line_arg.full_train, score_flg=cmd_line_arg.full_score)
 
 
 if __name__ == '__main__':
-
     main()
-

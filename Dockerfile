@@ -7,4 +7,5 @@ COPY Multiclass_model-master/requirements.txt .
 
 RUN pip install -r requirements.txt
 
+CMD ["python", "./"]
 CMD ["python", "./run_pipeline.py"]

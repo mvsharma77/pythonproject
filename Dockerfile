@@ -1,7 +1,7 @@
 # use a node base image
 FROM python:3
 
-WORKDIR /Multiclass_model-master/src/classification
+WORKDIR /pythonproject/Multiclass_model-master/src/classification
 
 # COPY Multiclass_model-master/requirements.txt .
 

@@ -1,9 +1,8 @@
 import logging
 import os
 import argparse
-#import install_module.py
+import install_module.py
 
-sys.path.append('/projects/cc/kdqm927/PythonNotebooks/model/')
 from model import train, scoring_predict, utils
 from visualization import main_viz
 from exp_data_analysis import main_eda
